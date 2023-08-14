@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 10;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+div{
+    margin: 0 auto;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.op{
+  align-items: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 380px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  
+  
+}
+
+textarea {
+  resize:none;
+  height: 200px;
+  
+}
+
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 177px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para los campos requeridos */
+input:required,
+textarea:required {
+  border-color: #464646;
+}
+
+input:required::placeholder,
+textarea:required::placeholder {
+  color: #464646;
+  
+}
+
+input:invalid,
+textarea:invalid {
+  border-color: #929292;
+  box-shadow: none;
+  
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display:list-item;
+  text-align: left;
+}
+
+
