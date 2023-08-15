@@ -69,7 +69,7 @@ body {
 
   form {
     
-    height: 1500px;
+    height: auto;
     margin: 35px;
     padding: 20px;
     background-color: #fff;
@@ -502,8 +502,7 @@ pre {
 .container {
   width: 750px;
   margin-left: 20px; 
-
-
+  
 
 }
   @media (min-width: 576px) {
@@ -8217,6 +8216,8 @@ h1, h2, h3, h4, h5,
 
 .ftco-section {
   /* padding: 7em 0;  */
+  position:fixed;
+
   
 }
 
