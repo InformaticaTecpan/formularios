@@ -49,7 +49,7 @@
           
             <label>Fecha::</label>
             
-            <input class="fecha" type="date" id="fecha" name="fecha" required>
+            <input class="fecha data-mdb-disable-past" type="date" id="fecha" name="fecha" required>
        
         </div>
 
@@ -77,7 +77,7 @@
     
 
     <div class="col">
-        <label>Edad:</label>
+        <label>Nombres:</label>
          <input type="text" class="form-control">
         
     </div>
@@ -100,19 +100,33 @@
     <div class="col">
             
         <label> Sexo:</label>
-        <br>
-        <select name="lista-esp" class="operaciones_pwd">
-
-            <option>Traumatología</option>
-            
-            <option>Medicina Interna</option>
-            
-            <option>Psicología</option>
-            
-            </select>
-
         
+       
+            <input type="radio" id="box-1" name="1">
+            <label for="box-1">Masculino</label>
+          
+            <input type="radio" id="box-2" name="1">
+            <label for="box-2">Femenino </label>
+
+            
+
+
     </div>
+
+    <div class="col">
+            
+        <label> Referencia:</label>
+        <br>
+        
+        <input type="radio" id="referido" name="1">
+       <label>Referido</label>
+
+        </div>
+  
+
+
+ 
+    
 </div>
 <!-- fin de la columna -->
 
@@ -120,6 +134,7 @@
 
 
     <!-- Combobox Especialidad -->
+    
     
 
     <div class="row g-3">
@@ -154,20 +169,24 @@
         <textarea class="form-text-area" id="floatingTextarea"></textarea>
 
     </div>
+
+
+    
     </div>
 
-  
-<div class="row g-3">
-    <div class="col">
 
-    <button type="button" class="btn btn-outline-primary" >Guardar</button>
-    </div>
+    
+   
+    
+        <div class="">
+           
+        </div>
+        <div class="col">
+            <br>
+            <button type="button" class="btn btn-outline-success">Guardar</button>
+            <button type="button" class="btn btn-outline-danger">Cancelar</button>
 
-    <div class="col">
-    <button type="button" class="btn btn-outline-primary" >Guardar</button>
-</div>
-        
-
+        </div>
     </form>
     
 </body>
